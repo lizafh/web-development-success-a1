@@ -18,6 +18,7 @@ text-decoration: none;
 header h1{
     font-size: 48px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .header{
    text-align: center;
@@ -93,18 +94,19 @@ margin-top: 30px;
     border-radius: 5px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     margin-bottom: 50px;
+    width: 65%;
 }
 .current-target-container{
 width: 80%;
 margin: 0 auto;
 }
 .current-target-container p{
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 25px;
+margin-bottom: 40px;
 }
 .current-target-container img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-bottom: 20px;
 }
 .current-target-container a{
@@ -165,6 +167,7 @@ padding-left: 15px;
     padding: 14px 25px;
     background-color: white;
     margin-top: 30px;
+    font-weight: 600;
 }
 footer{
     background-color: rgba(13, 19, 33, 0.03);
@@ -179,6 +182,10 @@ footer{
    
     padding: 20px;
     margin-bottom: 20px;
-    width: 70%;
+    width: 76%;
+}
+
+.footer-container-elements a{
+    margin: 10px;
 }
 
