@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+}
+
+header{
+    background-image: url(../assets/Hero-bg.png);
+    padding: 30px;
+    color: rgb(13, 19, 33);
+    
+
+}
+header a{
+color: white;
+text-decoration: none;
+}
+header h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.header{
+   text-align: center;
+   margin: 40px;
+}
+header button{
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(38, 26, 26);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.why-web-development-container{
+   
+   background-color: rgba(13, 19, 33, 0.02);
+   margin: 70px 140px;
+   padding: 30px 60px 30px 60px;
+   /* padding-top: 30px;
+   padding-bottom: 60px; */
+}
+.why-web-development-upperText{
+    margin-top: 60px;
+    margin-bottom: 90px;
+    text-align: center;
+   
+}
+.why-web-development-container h2{
+    margin-bottom: 20px;
+}
+.why-web-development-midText{
+/* width: 50%; */
+color: rgba(13, 19, 33, 0.7);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+    border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+/* border: 1px solid red; */
+width: 80%;
+margin: 30px auto;
+padding: 30px 60px;
+text-align: justify;
+box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.why-web-development-container button{
+    padding: 10px 20px;
+    
+    background-color: white;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+font-size: 17px;
+font-weight: 600;
+line-height: 23px;
+margin-top: 30px;
+}
+.my-inspiration-container{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.inspiration-container-video{
+    /* border: 1px solid rgb(181, 180, 180); */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-bottom: 50px;
+}
+.current-target-container{
+width: 80%;
+margin: 0 auto;
+}
+.current-target-container p{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.current-target-container img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.current-target-container a{
+color: black;
+}
+.current-target-upperTextContainer{
+text-align: center;
+}
+.current-target-cardContainer{
+    margin: 20px;
+    
+    display: flex;
+    gap: 40px;
+   
+   
+}
+.current-target-singleCard{
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.need-support-container{
+    background-image: url(/assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+  
+   
+    
+    width: 70%;
+    /* border: 1px solid red; */
+    height: 200px;
+    margin: 0 auto;
+    
+    margin-top: 30px;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+   
+}
+.blur{
+    filter: blur(0.5px);
+}
+.need-support-container p{
+    margin: 20px;
+}
+.need-support-container input {
+height: 45px;
+width: 500px;
+border: none;
+border-radius: 5px;
+padding-left: 15px;
+}
+.need-support-container button{
+    
+    border: none;
+    border-radius: 5px;
+    padding: 14px 25px;
+    background-color: white;
+    margin-top: 30px;
+}
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.footer-container-elements{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+   
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
