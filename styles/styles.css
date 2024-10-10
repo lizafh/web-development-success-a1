@@ -155,7 +155,7 @@ text-align: center;
 }
 
 .need-support-container{
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-position: center;
     background-size: cover;
    width: 70%;
